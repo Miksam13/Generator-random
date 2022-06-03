@@ -1,85 +1,56 @@
-body{
+body {
 	font-family: "Open Sans", sans-serif;
 	margin:0;
 	padding:0;
 }
 
-.pole_vvoda{
-  padding: 6px;
+.start {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 100px;
-  margin-left: 515px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inp{
   font-size: 17px;
-  width: 225px;
+  width: 280px;
+  margin-bottom: 25px;
+  height: 25px;
 }
 
-.pole_vvoda_min{
-  padding: 6px;
-  margin-top: 100px;
-  margin-left: 515px;
-  font-size: 17px;
-  width: 225px;
-}
-
-.button_style{
-	position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-.button_style_but{
-	width: 500px;
-  height: 100px;
+.btn_gen{
+	width: 280px;
+  height: 50px;
   background-color: #8B0000;
 	border: 0px solid #ffffff;
-	border-radius: 15px;
+	border-radius: 12px;
+  text-decoration: none;
+	font-size: 24px;
+	color: #ffffff;
 }
 
-.button_style_clear{
+.btn_clear{
+  margin-bottom: 15px;
 	width: 100px;
   height: 35px;
+  margin-top: 30px;
   background-color: #8B0000;
 	border: 0px solid #ffffff;
 	border-radius: 5px;
-}
-
-.button_style_clear_btn{
-	position: absolute;
-  left: 64%;
-  top: 21%;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-.text_button, a{
-	text-decoration: none;
-	font-size: 40px;
-	color: #ffffff;
-}
-
-.clear_text, a{
-	text-decoration: none;
+  text-decoration: none;
 	font-size: 20px;
 	color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.random_text_style{
+.random_txt{
 	text-decoration: none;
 	font-size: 50px;
 	color: #000000;
-	position: absolute;
-  left: 50%;
-  top: 21%;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  margin-bottom: 25px;
+  text-align: center;
 }

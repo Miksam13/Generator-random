@@ -7,16 +7,13 @@
 	<script src="script.js"></script>
 </head>
 <body>
-	<input class="pole_vvoda_min" id="min_chislo" type="text" placeholder="Введи минимальное число" value="0">
-	<input class="pole_vvoda" id="max_chislo" type="text" placeholder="Введи максимальное число">
-	<div class="button_style">
-		<button class="button_style_but" id="button" onclick="gen()"><a class="text_button">ЗГЕНЕРИРОВАТЬ</a></button>
+	<div class="start">
+		<button id="btn_cl" onclick="document.getElementById('min_number').value = '0'; document.getElementById('max_number').value = '';" class="btn_clear">Очистить</button>
+		<input class="inp" id="min_number" type="text" placeholder="Введи минимальное число" value="0">
+		<b id="text" class="random_txt"></b>
+		<input class="inp" id="max_number" type="text" placeholder="Введи максимальное число">
+		<button class="btn_gen" onclick="gen()" id="button">ЗГЕНЕРИРОВАТЬ</button>
 	</div>
-	<b id="random_text" class="random_text_style"></b>
-	<form>
-		<div class="button_style_clear_btn">
-			<button class="button_style_clear" onclick="clear()"><a class="clear_text">Очистить</a></button>
-		</div>
-	</form>
+	<script src="script.js"></script>
 </body>
 </html>
